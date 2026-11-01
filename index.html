@@ -4,11 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>网站更新日志</title>
+<style>
+body {margin: 0px;
+     text-align: left}
+  html, body {
+  overflow-x: hidden; 
+  max-width: 100%;
+  }
+</style>
 </head>
 <body>
 <h1 style="color: rgb(0, 0, 0)"> 网站更新日志 </h1>
- <div style="background-color:rgb(102, 204, 255)">
-<p style="color:rgb(0, 0, 0)">
+  <div style="color:hwb(36 0% 0%);background-color: red;
+    font-size: 15px;">
+    您现正于 “luo712.us.ci”的子域名“love.luo712.us.ci”
+  </div>
+ <div style="background-color:rgb(102, 204, 255);
+   padding: 5px;">
+   <p style="color:rgb(0, 0, 0); margin: 0px;">
 vol1 更新编码 20261031a0.0.40
   更新内容∶
   <br>1、增加了<b>“网站更新日志”。</b>
@@ -18,7 +31,7 @@ vol1 更新编码 20261031a0.0.40
 vol2 更新编码 20261031a1.0.44
   更新内容∶
   <br>
-  1、修复了<b>点击“夜间模式切换”后覆盖按钮无法取消</b>的bug。<br>
+  1、修复了<b>点击“夜间模式切换”后覆盖按钮无法取<br>消</b>的bug。
   2、增加了<b>“网页更新日志站”中的“前往主站”</b>功能。<br>
   3、增加了<b>主站图片未加载完成的提示内容</b>。<br>
   4、增加了<b>主站跳转至“网页更新日志”</b><br>
@@ -30,11 +43,96 @@ vol3 更新编码 20261101a0.1.1
   2、修复了<b>导航页平滑滚动</b>卡顿、滑动不完全的bug将并js平滑滚动
 改为css<b>节省性能</b>。<br>
   3、对侧边栏的导航<b>文字进行了美化</b>。
-  
   </p>
-    
- </div>
+<p style="color:rgb(0, 0, 0)">
+vol4 更新编码 20261101a1.1.6
+  更新内容:<br>   
+  1、修复了点击<b>大头页无法打开</b>的bug。
+  2、<b>增加了彩蛋</b>。
+</p>  
+   
+   
+   
+   <p style="color:rgb(0, 0, 0)">
+<p style="color:rgb(0, 0, 0)">
+<p style="color:rgb(0, 0, 0)">
+
+</div >
+
+<div style="display: flex;">
 <a href="https://luo712.us.ci/">前往主站<br>
-  https://luo712.us.ci/
+  https://luo712.us.ci/ </a>
+  <button id="but1" onclick="a64();css1();diva1()" style="height: 20px;">彩蛋</button>
+
+<div style="position: fixed;
+  top: 300px;left:20%;
+  background-color:rgba(255, 255, 255, 0.95);
+  height:0;
+  width: 200px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  border-radius: 10px"
+  id="div1">
+  <img style="width:200px;
+    height:0;
+    position: relative;"
+    id="img1"
+     src="logo1.png"> 
+  <div 
+    id="long1"
+    style="position: absolute;
+    background-color: rgb(245, 130, 0);
+    height: 0;
+    width: 30px;
+    top: 105px;
+    left:0;">
+  
+  </div>  
+  
+  
+  <!--js代码-->
+<script>
+//声明变量
+let butjm = document.getElementById("but1")
+let long1 = document.getElementById("long1")
+let pgh = 0
+let tim = null
+//跳转  
+function a64(params) {
+ clearInterval(tim);
+  setTimeout ( 
+  function a64() {
+location.href="https://luo712.us.ci/"  
+} ,5000);}
+
+
+  
+  function css1() {
+    clearInterval(tim)
+    tim = setInterval (function () {
+ if (pgh >= 170) {
+  pgh = 0}
+ else { 
+   pgh++ 
+  long1.style.left = pgh +"px"};
+},10) }
+
+
+  let div1 = document.getElementById("div1")
+  let imga1 = document.getElementById("img1")
+  
+  function diva1() {
+  div1.style.height = 110 + "px"
+ imga1.style.height = "auto"
+  long1.style.height = 5 + "px"
+  }  
+
+
+
+
+
+
+</script>
 </body>
 </html>
